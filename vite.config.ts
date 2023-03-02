@@ -10,6 +10,7 @@ export default defineConfig({
 	plugins: [react()],
 	test: {
 		globals: true,
+		dir: path.resolve(__dirname, 'tests'),
 		environment: 'jsdom',
 	},
 	resolve: {
